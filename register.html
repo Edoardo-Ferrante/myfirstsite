@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="public/styles.css">
+    <title>Register</title>
+  </head>
+  <body>
+    <style>
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+h1 {
+    text-align: center;
+  }
+  
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+button[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Styles for the register page */
+  
+  .register-form {
+    margin-top: 60px;
+  }
+  
+  .register-form h1 {
+    color: #2196f3;
+  }
+    </style>
+    <h1>Register</h1>
+    <form action="/register" method="post">
+      <label for="username">Username:</label>
+      <input type="text" name="username" id="username" required>
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" required>
+      <br>
+      <button type="submit">Register</button>
+    </form>
+    <a href="/login">Already have an account</a>
+  </body>
+</html>
