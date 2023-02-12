@@ -55,13 +55,6 @@ app.get('/home', (req, res) => {
   }
 });
 
-// Serve the test page
-app.get('/index', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
-});
-
-
-
 // Handle registration form submission
 app.post('/register', (req, res) => {
   const db = new sqlite3.Database('users.db');
