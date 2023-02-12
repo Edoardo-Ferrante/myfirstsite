@@ -9,6 +9,9 @@ My First Website made by Edoardo Ferrante, this website includes a working accou
 Also has 3 basic UI's (Login Page, Register Page & Home Page)
 Home Page has working logout button
 
-
+Packages Used:
+- Express (ExpressJS)
+- BCrypt (Password Hashing)
+- SQLite3 (Storage)
 
 
